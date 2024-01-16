@@ -132,3 +132,6 @@ async def streaming_response(
         content = json.dumps(end_completion_data, separators=(",", ":"))
         yield f"data: {content}\n\n"
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("api:app", host="0.0.0.0", port=6969, log_level="info")
