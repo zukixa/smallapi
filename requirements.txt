@@ -1,0 +1,9 @@
+fastapi
+slowapi
+limits  
+starlette 
+gunicorn  
+uvicorn  
+aiofiles 
+nltk
+poe-api-wrapper 
